@@ -100,10 +100,6 @@ const handleAgain = function () {
   result = randomNumber();
 };
 
-function application() {
-  buttonCheck.addEventListener('click', handleCheck);
+buttonCheck.addEventListener('click', handleCheck);
 
-  buttonAgain.addEventListener('click', handleAgain);
-}
-
-application();
+buttonAgain.addEventListener('click', handleAgain);
